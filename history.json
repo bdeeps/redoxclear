@@ -1,0 +1,803 @@
+{
+  "title": "The history of oxidation and reduction",
+  "tagline": "From a rustless iron pillar and a stack of zinc and copper discs to the battery in your pocket.",
+  "intro": "People smelted metals and fought rust for thousands of years before anyone knew what was happening. In the 1770s Lavoisier tied burning and rusting to oxygen. Then Volta's pile of 1800 showed that chemical change can drive electricity, Faraday counted the charge, and the discovery of the electron revealed what had been moving all along. Today the same electron trade powers phones, protects ships and explains a 1,600-year-old pillar in Delhi.",
+  "eras": [
+    {
+      "id": "fire",
+      "name": "Fire, ore and air",
+      "from": 400,
+      "to": 1799,
+      "color": "#ffb547",
+      "summary": "Smiths reduce ores and make iron that resists rust, chemists blame phlogiston, and Lavoisier finds oxygen behind burning and rusting."
+    },
+    {
+      "id": "pile",
+      "name": "The pile and the laws",
+      "from": 1800,
+      "to": 1858,
+      "color": "#8ef0ff",
+      "summary": "Volta's battery turns chemistry into current. Davy frees new metals, Faraday counts the charge, and Daniell builds a cell that lasts."
+    },
+    {
+      "id": "cells",
+      "name": "Cells, ions and industry",
+      "from": 1859,
+      "to": 1949,
+      "color": "#c49bff",
+      "summary": "Rechargeable and dry cells, aluminium by electrolysis, Nernst's equation, the electron, stainless steel and the electrical theory of rust."
+    },
+    {
+      "id": "modern",
+      "name": "Lithium, and an old pillar",
+      "from": 1950,
+      "to": 2026,
+      "color": "#5ce1a9",
+      "summary": "The lithium-ion cell reaches nearly four volts and wins a Nobel Prize, and metallurgy explains the iron pillar of Delhi."
+    }
+  ],
+  "events": [
+    {
+      "year": 400,
+      "date": "c. 400 CE",
+      "era": "fire",
+      "art": "hammer",
+      "key": true,
+      "title": "An iron pillar that will not rust",
+      "who": "Ironworkers of the Gupta period",
+      "where": "Probably Udayagiri, central India; now Delhi",
+      "country": "India",
+      "text": "Smiths forge-welded lumps of wrought iron into a pillar 7.2 metres long and weighing more than six tonnes, in the reign of Chandragupta II. It was moved to Delhi centuries later and has stood in the open ever since, with hardly any rust.",
+      "why": "It became the world's longest-running corrosion experiment, and its secret was only explained in 2000.",
+      "sources": [
+        23,
+        24
+      ],
+      "box": "rust"
+    },
+    {
+      "year": 850,
+      "date": "c. 9th century",
+      "era": "fire",
+      "art": "flask",
+      "key": false,
+      "title": "Zinc is distilled at Zawar",
+      "who": "Smelters of Zawar",
+      "where": "Zawar, Rajasthan",
+      "country": "India",
+      "text": "Zinc boils before its ore can be reduced in an open furnace, so it escapes as vapour. At Zawar, smelters heated the ore with organic matter in sealed clay retorts and caught the metal as it condensed. Europe did not match the process until William Champion's patent of 1738.",
+      "why": "Winning a metal from its ore is the original meaning of the word reduction.",
+      "sources": [
+        25,
+        0
+      ]
+    },
+    {
+      "year": 1697,
+      "date": "1697–1703",
+      "era": "fire",
+      "art": "flame",
+      "key": false,
+      "title": "Phlogiston: burning as a loss",
+      "who": "Georg Ernst Stahl",
+      "where": "Halle",
+      "country": "Germany",
+      "text": "Building on Johann Becher's idea of 1667, Stahl taught that anything that burns or rusts gives off a fire-stuff called phlogiston. The theory ruled chemistry for most of a century. Its weak point was known early: metals get heavier when they turn to calx, not lighter.",
+      "why": "It was wrong about the substance but right about the pattern: burning, rusting and smelting are one kind of change.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "year": 1777,
+      "date": "1772–1777",
+      "era": "fire",
+      "art": "scales",
+      "key": true,
+      "title": "Lavoisier weighs the air",
+      "who": "Antoine Lavoisier, with Marie-Anne Paulze Lavoisier",
+      "where": "Paris",
+      "country": "France",
+      "text": "From 1772 Lavoisier burned phosphorus, sulphur and metals in sealed vessels and weighed everything. The gain in weight matched the air used up. After Joseph Priestley told him in October 1774 about the gas from heated mercury calx, he named that gas oxygen, in 1777. Marie-Anne translated, drew and recorded the experiments.",
+      "why": "Burning and rusting became 'oxidation': combining with oxygen. The word outlived the idea that oxygen is always needed.",
+      "sources": [
+        2,
+        1,
+        0
+      ],
+      "box": "limits"
+    },
+    {
+      "year": 1791,
+      "date": "1780–1791",
+      "era": "fire",
+      "art": "muscle",
+      "key": false,
+      "title": "A frog's leg twitches",
+      "who": "Luigi Galvani",
+      "where": "Bologna",
+      "country": "Italy",
+      "text": "Galvani saw the legs of dead frogs kick when touched with two different metals, and published his study in 1791. He believed the electricity came from the animal. His name survives in galvanic cells and galvanised steel.",
+      "why": "His rival Volta suspected the two metals were the real source, and set out to prove it.",
+      "sources": [
+        3,
+        9
+      ]
+    },
+    {
+      "year": 1800,
+      "date": "20 March 1800",
+      "era": "pile",
+      "art": "battery",
+      "key": true,
+      "title": "Volta's pile: the first battery",
+      "who": "Alessandro Volta",
+      "where": "Como and Pavia",
+      "country": "Italy",
+      "text": "Volta stacked discs of zinc and copper, each pair separated by cardboard soaked in brine, and described the result in a letter to the Royal Society in London. Each pair gave about 0.76 volts, and the pile gave a steady current for the first time in history.",
+      "why": "Every pair of discs is a small redox cell: zinc is oxidised, and the electrons flow round the circuit.",
+      "sources": [
+        4,
+        5
+      ],
+      "box": "cell"
+    },
+    {
+      "year": 1800,
+      "date": "May 1800",
+      "era": "pile",
+      "art": "waterdrop",
+      "key": false,
+      "title": "Water is split by electricity",
+      "who": "William Nicholson and Anthony Carlisle",
+      "where": "London",
+      "country": "England",
+      "text": "Within weeks of Volta's letter reaching London, Nicholson and Carlisle built a pile and dipped its wires in water. Bubbles of hydrogen rose from one wire and oxygen from the other.",
+      "why": "It was the first electrolysis with a battery: a current forcing a chemical reaction to run backwards.",
+      "sources": [
+        28,
+        27,
+        9
+      ],
+      "box": "limits"
+    },
+    {
+      "year": 1805,
+      "date": "1805",
+      "era": "pile",
+      "art": "plate",
+      "key": false,
+      "title": "The first electroplating",
+      "who": "Luigi Brugnatelli",
+      "where": "Pavia",
+      "country": "Italy",
+      "text": "Brugnatelli, a friend of Volta, used a voltaic pile to deposit gold onto silver medals. His work was not taken up by the French Academy of Sciences and was little known for thirty years. George and Henry Elkington of Birmingham took out the first patents for electroplating in 1840.",
+      "why": "Plating is reduction made to order: metal ions are given electrons exactly where a coat is wanted.",
+      "sources": [
+        13
+      ],
+      "box": "limits"
+    },
+    {
+      "year": 1807,
+      "date": "October 1807",
+      "era": "pile",
+      "art": "bolt",
+      "key": true,
+      "title": "Davy pulls potassium and sodium out of their salts",
+      "who": "Humphry Davy",
+      "where": "Royal Institution, London",
+      "country": "England",
+      "text": "Davy passed the current of a large voltaic pile through molten caustic potash. Tiny globules of a new silvery metal appeared and burst into flame: potassium, the first metal ever isolated by electrolysis. Sodium followed within days, and calcium, barium, strontium and magnesium in 1808.",
+      "why": "The metals at the top of the reactivity series hold on so weakly to their electrons that only electricity could set them free.",
+      "sources": [
+        7,
+        6,
+        9
+      ],
+      "box": "series"
+    },
+    {
+      "year": 1824,
+      "date": "1824",
+      "era": "pile",
+      "art": "boat",
+      "key": false,
+      "title": "Sacrificial metal for the Navy",
+      "who": "Humphry Davy",
+      "where": "Portsmouth",
+      "country": "England",
+      "text": "The Royal Navy asked Davy why the copper sheets on its ships were being eaten by sea water. He fixed small blocks of iron or zinc to the copper, and the corrosion almost stopped. The trial on HMS Samarang worked too well: copper that no longer dissolved no longer poisoned barnacles and weed, and the hulls fouled.",
+      "why": "It was the first cathodic protection, the idea behind every zinc block on a ship and every anode rod in a geyser.",
+      "sources": [
+        12
+      ],
+      "box": "rust"
+    },
+    {
+      "year": 1833,
+      "date": "1833–1834",
+      "era": "pile",
+      "art": "scales",
+      "key": true,
+      "title": "Faraday counts the charge",
+      "who": "Michael Faraday",
+      "where": "Royal Institution, London",
+      "country": "England",
+      "text": "Faraday showed that the amount of substance set free in electrolysis depends only on the quantity of electricity that passes, and that the same quantity frees chemically equivalent amounts of different substances. With the scholar William Whewell he coined the words electrode, electrolyte, anode, cathode and ion.",
+      "why": "His two laws tied chemistry to electric charge, sixty years before anyone knew what an electron was.",
+      "sources": [
+        8,
+        9,
+        12
+      ],
+      "box": "limits"
+    },
+    {
+      "year": 1836,
+      "date": "1836",
+      "era": "pile",
+      "art": "battery",
+      "key": true,
+      "title": "Daniell's steady cell",
+      "who": "John Frederic Daniell",
+      "where": "King's College London",
+      "country": "England",
+      "text": "Volta's pile faded within minutes as hydrogen bubbles coated its copper. Daniell kept zinc and copper in separate solutions with a porous pot between them, so that copper, not hydrogen, was deposited. His cell gave a steady 1.1 volts and went on to power the telegraph. In 1881 the volt was defined so that a Daniell cell gives about one.",
+      "why": "It is the textbook cell: two half-reactions kept apart so their electrons must travel through a wire.",
+      "sources": [
+        10,
+        5
+      ],
+      "box": "cell"
+    },
+    {
+      "year": 1837,
+      "date": "1837",
+      "era": "pile",
+      "art": "wrench",
+      "key": false,
+      "title": "Galvanised iron is patented",
+      "who": "Stanislas Sorel",
+      "where": "Paris",
+      "country": "France",
+      "text": "Sorel patented a way of protecting iron by coating it with zinc, and named it after Galvani. The idea was older than the patent: zinc-coated Indian armour in the Royal Armouries in Britain dates from before the 1680s.",
+      "why": "Zinc protects twice, as a barrier and by being oxidised in place of the iron.",
+      "sources": [
+        11
+      ],
+      "box": "rust"
+    },
+    {
+      "year": 1859,
+      "date": "1859",
+      "era": "cells",
+      "art": "car",
+      "key": false,
+      "title": "A battery that can be refilled",
+      "who": "Gaston Planté",
+      "where": "Paris",
+      "country": "France",
+      "text": "Planté rolled two sheets of lead with a rubber separator, stood them in sulphuric acid and found that the cell could be charged again and again by passing current backwards through it. In 1881 Camille Faure added pasted plates, the form still used.",
+      "why": "The lead–acid cell, at about 2 volts, still starts cars and backs up homes more than 160 years later.",
+      "sources": [
+        14,
+        5
+      ],
+      "box": "cell"
+    },
+    {
+      "year": 1866,
+      "date": "1866 and 1886",
+      "era": "cells",
+      "art": "battery",
+      "key": false,
+      "title": "Zinc, manganese and the dry cell",
+      "who": "Georges Leclanché; Carl Gassner",
+      "where": "France; Mainz",
+      "country": "France and Germany",
+      "text": "Leclanché built a cell from a zinc rod, manganese dioxide and ammonium chloride solution. In 1886 Gassner turned the liquid into a paste and sealed it in a zinc can, making the first dry cell, at 1.5 volts. The alkaline version, developed by Lewis Urry, went on sale in 1959.",
+      "why": "A battery that could not spill could go into a torch, a radio or a pocket.",
+      "sources": [
+        5,
+        9
+      ],
+      "box": "cell"
+    },
+    {
+      "year": 1886,
+      "date": "1886",
+      "era": "cells",
+      "art": "blade",
+      "key": true,
+      "title": "Cheap aluminium from electrolysis",
+      "who": "Charles Martin Hall and Paul Héroult",
+      "where": "Oberlin, Ohio, and Paris",
+      "country": "United States and France",
+      "text": "Two 22-year-olds, working independently, found that aluminium oxide dissolves in molten cryolite and can then be split by an electric current. Until then aluminium had been a precious metal. The process still makes nearly all the world's aluminium, at around 15 kWh for each kilogram.",
+      "why": "Aluminium sits so high in the reactivity series that only electricity can reduce it at a sensible cost.",
+      "sources": [
+        15,
+        9
+      ],
+      "box": "limits"
+    },
+    {
+      "year": 1889,
+      "date": "1888–1889",
+      "era": "cells",
+      "art": "thermometer",
+      "key": false,
+      "title": "Nernst's equation",
+      "who": "Walther Nernst",
+      "where": "Leipzig",
+      "country": "Germany",
+      "text": "Nernst worked out how the voltage of a cell depends on the concentrations of its solutions and on temperature. A tenfold change in concentration shifts a one-electron electrode by 0.059 volts at room temperature. He won the 1920 Nobel Prize in Chemistry for later work on heat.",
+      "why": "It turned the table of electrode potentials into a tool that works for real, non-standard solutions.",
+      "sources": [
+        9,
+        16,
+        17
+      ],
+      "box": "cell"
+    },
+    {
+      "year": 1897,
+      "date": "1897",
+      "era": "cells",
+      "art": "atomspin",
+      "key": false,
+      "title": "The electron is found",
+      "who": "J. J. Thomson",
+      "where": "Cambridge",
+      "country": "England",
+      "text": "Thomson showed that cathode rays are streams of particles far lighter than any atom and carrying negative charge. Chemists soon understood Faraday's ions as atoms that had lost or gained these electrons.",
+      "why": "Oxidation and reduction could now be defined as losing and gaining electrons, with or without oxygen.",
+      "sources": [
+        33,
+        0
+      ],
+      "box": "idea"
+    },
+    {
+      "year": 1913,
+      "date": "1912–1913",
+      "era": "cells",
+      "art": "blades",
+      "key": false,
+      "title": "Steel that makes its own armour",
+      "who": "Harry Brearley; Benno Strauss and Eduard Maurer",
+      "where": "Sheffield and Essen",
+      "country": "England and Germany",
+      "text": "Looking for a better gun-barrel steel, Brearley found in 1913 that steel with about 13% chromium did not rust. At Krupp, Strauss and Maurer had patented a chromium–nickel stainless steel in October 1912. Chromium forms an invisible oxide film that heals itself when scratched.",
+      "why": "It was a new way to stop corrosion: let the metal oxidise, but only one sealed layer deep.",
+      "sources": [
+        18
+      ],
+      "box": "rust"
+    },
+    {
+      "year": 1924,
+      "date": "1924",
+      "era": "cells",
+      "art": "waterdrop",
+      "key": false,
+      "title": "Corrosion is shown to be electrical",
+      "who": "Ulick Richardson Evans",
+      "where": "Cambridge",
+      "country": "England",
+      "text": "Evans devised experiments showing that a wet metal surface divides into anodes, where metal dissolves, and cathodes, where oxygen is reduced, with the difference in oxygen supply driving the current. His book Corrosion of Metals appeared in 1924.",
+      "why": "Rust was understood as a short-circuited cell, which is how the model in this box draws it.",
+      "sources": [
+        19,
+        30
+      ],
+      "box": "rust"
+    },
+    {
+      "year": 1928,
+      "date": "1928 and 1938",
+      "era": "cells",
+      "art": "word",
+      "key": false,
+      "title": "The words 'redox' and 'oxidation state'",
+      "who": "Leonor Michaelis and Louis Flexner; Wendell Latimer",
+      "where": "Baltimore and Berkeley",
+      "country": "United States",
+      "text": "The short word redox, from reduction and oxidation, first appeared in a 1928 paper by Michaelis and Flexner. Ten years later Latimer's textbook made 'oxidation state' the standard name for the bookkeeping number that rises in oxidation and falls in reduction.",
+      "why": "With oxidation numbers, burning, breathing and bleaching could all be counted as electron transfer.",
+      "sources": [
+        0,
+        20
+      ],
+      "box": "limits"
+    },
+    {
+      "year": 1980,
+      "date": "1980",
+      "era": "modern",
+      "art": "battery",
+      "key": true,
+      "title": "A four-volt cathode",
+      "who": "John Goodenough and Koichi Mizushima",
+      "where": "Oxford",
+      "country": "England",
+      "text": "Stanley Whittingham had built a rechargeable lithium cell at Exxon in the 1970s, using titanium disulphide. Goodenough and Mizushima replaced it with lithium cobalt oxide, which gave a much higher voltage. In the same year Rachid Yazami showed that graphite can take up lithium ions reversibly.",
+      "why": "Lithium is at the top of the reactivity series, so a cell built on it can reach nearly 4 volts.",
+      "sources": [
+        21,
+        22
+      ],
+      "box": "cell"
+    },
+    {
+      "year": 1991,
+      "date": "1985–1991",
+      "era": "modern",
+      "art": "phone",
+      "key": false,
+      "title": "Lithium-ion goes on sale",
+      "who": "Akira Yoshino; Sony",
+      "where": "Kawasaki and Tokyo",
+      "country": "Japan",
+      "text": "In 1985 Yoshino built a prototype with a carbon anode and Goodenough's cobalt oxide cathode, with no lithium metal in it at all. Sony began selling cells of this kind in 1991. Their nominal voltage is 3.6 to 3.7 volts.",
+      "why": "It made phones, laptops and electric cars practical.",
+      "sources": [
+        21
+      ],
+      "box": "cell"
+    },
+    {
+      "year": 2000,
+      "date": "2000",
+      "era": "modern",
+      "art": "hammer",
+      "key": true,
+      "title": "The Delhi pillar is explained",
+      "who": "R. Balasubramaniam",
+      "where": "Indian Institute of Technology Kanpur",
+      "country": "India",
+      "text": "Balasubramaniam's study in the journal Corrosion Science found that the pillar's iron holds about 0.25% phosphorus, because the old smelters used no limestone. With wet and dry weather the phosphorus helped a compact layer of misawite and iron hydrogen phosphate to form. After 1,600 years the film is about a twentieth of a millimetre thick.",
+      "why": "A famous mystery turned out to be ordinary redox chemistry, working very slowly and very well.",
+      "sources": [
+        24,
+        23,
+        31,
+        34
+      ],
+      "box": "rust"
+    },
+    {
+      "year": 2019,
+      "date": "October 2019",
+      "era": "modern",
+      "art": "trophy",
+      "key": true,
+      "title": "A Nobel Prize for the lithium-ion battery",
+      "who": "John Goodenough, Stanley Whittingham and Akira Yoshino",
+      "where": "Stockholm",
+      "country": "Sweden",
+      "text": "The Nobel Prize in Chemistry went to the three for the development of lithium-ion batteries. Goodenough, aged 97, became the oldest person ever to receive a Nobel Prize.",
+      "why": "A reaction first seen as zinc in a jar of brine now runs most of the world's portable electricity.",
+      "sources": [
+        29,
+        22,
+        21
+      ],
+      "box": "cell"
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First battery",
+      "value": "1800",
+      "who": "Alessandro Volta, Italy"
+    },
+    {
+      "label": "First metal isolated by electrolysis",
+      "value": "1807",
+      "who": "Humphry Davy, London: potassium"
+    },
+    {
+      "label": "First cathodic protection",
+      "value": "1824",
+      "who": "Humphry Davy, for the Royal Navy"
+    },
+    {
+      "label": "First rechargeable battery",
+      "value": "1859",
+      "who": "Gaston Planté, France"
+    },
+    {
+      "label": "First commercial lithium-ion cell",
+      "value": "1991",
+      "who": "Sony, Japan"
+    }
+  ],
+  "people": [
+    {
+      "name": "Antoine Lavoisier",
+      "life": "1743 – 1794",
+      "role": "Chemist",
+      "from": "France",
+      "note": "Showed by careful weighing that burning and rusting are combination with oxygen, and gave oxidation its name."
+    },
+    {
+      "name": "Marie-Anne Paulze Lavoisier",
+      "life": "1758 – 1836",
+      "role": "Chemist, translator and illustrator",
+      "from": "France",
+      "note": "Translated English chemistry for the laboratory, kept its records and drew its apparatus."
+    },
+    {
+      "name": "Alessandro Volta",
+      "life": "1745 – 1827",
+      "role": "Physicist",
+      "from": "Italy",
+      "note": "Built the first battery from zinc and copper discs. The volt is named after him."
+    },
+    {
+      "name": "Humphry Davy",
+      "life": "1778 – 1829",
+      "role": "Chemist",
+      "from": "England",
+      "note": "Used electrolysis to discover potassium, sodium and four more metals, and invented cathodic protection."
+    },
+    {
+      "name": "Michael Faraday",
+      "life": "1791 – 1867",
+      "role": "Physicist and chemist",
+      "from": "England",
+      "note": "Found the laws of electrolysis and gave us the words anode, cathode, electrode and ion. The Faraday constant is named after him."
+    },
+    {
+      "name": "John Frederic Daniell",
+      "life": "1790 – 1845",
+      "role": "Chemist",
+      "from": "England",
+      "note": "Invented the two-solution zinc and copper cell that gave a steady voltage."
+    },
+    {
+      "name": "Walther Nernst",
+      "life": "1864 – 1941",
+      "role": "Physical chemist",
+      "from": "Germany",
+      "note": "Worked out how a cell's voltage depends on concentration and temperature."
+    },
+    {
+      "name": "John B. Goodenough",
+      "life": "1922 – 2023",
+      "role": "Materials scientist",
+      "from": "United States",
+      "note": "Found the cobalt oxide cathode of the lithium-ion cell and shared the 2019 Nobel Prize at the age of 97."
+    },
+    {
+      "name": "R. Balasubramaniam",
+      "life": "1961 – 2009",
+      "role": "Metallurgist",
+      "from": "India",
+      "note": "Professor at IIT Kanpur who explained the corrosion resistance of the Delhi iron pillar."
+    }
+  ],
+  "series": [
+    {
+      "id": "volts",
+      "title": "Volts from a single cell",
+      "unit": "volts",
+      "log": false,
+      "after": "cells",
+      "caption": "Each new pair of materials sat further apart on the reactivity series, so each cell gave more volts.",
+      "points": [
+        {
+          "year": 1800,
+          "value": 0.76,
+          "label": "Volta's zinc and copper in brine: 0.76 V"
+        },
+        {
+          "year": 1836,
+          "value": 1.1,
+          "label": "Daniell cell: 1.1 V"
+        },
+        {
+          "year": 1859,
+          "value": 2.05,
+          "label": "Planté's lead–acid cell: about 2 V"
+        },
+        {
+          "year": 1886,
+          "value": 1.5,
+          "label": "Gassner's dry cell: 1.5 V"
+        },
+        {
+          "year": 1991,
+          "value": 3.7,
+          "label": "Lithium-ion: 3.6 to 3.7 V"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "The word reduction comes from smelting: an ore is 'reduced' to a smaller weight of metal as it loses its oxygen.",
+    "In 1881 the volt was defined so that a Daniell cell of zinc and copper would give about one volt. Its true value is 1.10 V.",
+    "Before 1886 aluminium cost more than gold. Electrolysis made it cheap enough for foil and drink cans.",
+    "The protective film on the Delhi iron pillar is about one-twentieth of a millimetre thick, after 1,600 years in the open.",
+    "Davy's zinc and iron blocks protected the Navy's copper so well that barnacles moved in: the dissolving copper had been keeping them off."
+  ],
+  "sources": [
+    {
+      "title": "Redox",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Redox"
+    },
+    {
+      "title": "Phlogiston theory",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phlogiston_theory"
+    },
+    {
+      "title": "Antoine Lavoisier",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antoine_Lavoisier"
+    },
+    {
+      "title": "Luigi Galvani",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luigi_Galvani"
+    },
+    {
+      "title": "Voltaic pile",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voltaic_pile"
+    },
+    {
+      "title": "History of the battery",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_battery"
+    },
+    {
+      "title": "Humphry Davy",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Humphry_Davy"
+    },
+    {
+      "title": "Potassium",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Potassium"
+    },
+    {
+      "title": "Faraday's laws of electrolysis",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis"
+    },
+    {
+      "title": "History of electrochemistry",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_electrochemistry"
+    },
+    {
+      "title": "Daniell cell",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Daniell_cell"
+    },
+    {
+      "title": "Galvanization",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galvanization"
+    },
+    {
+      "title": "Cathodic protection",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cathodic_protection"
+    },
+    {
+      "title": "Electroplating",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Electroplating"
+    },
+    {
+      "title": "Lead–acid battery",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lead%E2%80%93acid_battery"
+    },
+    {
+      "title": "Hall–Héroult process",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hall%E2%80%93H%C3%A9roult_process"
+    },
+    {
+      "title": "Nernst equation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nernst_equation"
+    },
+    {
+      "title": "Walther Nernst",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Walther_Nernst"
+    },
+    {
+      "title": "Stainless steel",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stainless_steel"
+    },
+    {
+      "title": "Ulick Richardson Evans",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ulick_Richardson_Evans"
+    },
+    {
+      "title": "Oxidation state",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Oxidation_state"
+    },
+    {
+      "title": "Lithium-ion battery",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+    },
+    {
+      "title": "John B. Goodenough",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_B._Goodenough"
+    },
+    {
+      "title": "Iron pillar of Delhi",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi"
+    },
+    {
+      "title": "R. Balasubramaniam, On the corrosion resistance of the Delhi iron pillar, Corrosion Science 42 (2000) 2103–2129",
+      "publisher": "Elsevier",
+      "url": "https://doi.org/10.1016/S0010-938X(00)00046-9"
+    },
+    {
+      "title": "Zinc",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zinc"
+    },
+    {
+      "title": "Standard electrode potential (data page)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Standard_electrode_potential_(data_page)"
+    },
+    {
+      "title": "Electrolysis of water",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Electrolysis_of_water"
+    },
+    {
+      "title": "William Nicholson (chemist)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_Nicholson_(chemist)"
+    },
+    {
+      "title": "The Nobel Prize in Chemistry 2019: press release",
+      "publisher": "The Nobel Foundation",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2019/press-release/"
+    },
+    {
+      "title": "Rust",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rust"
+    },
+    {
+      "title": "Iron mask (on the Delhi iron pillar's protective film)",
+      "publisher": "Down To Earth",
+      "url": "https://www.downtoearth.org.in/environment/iron-mask-15049"
+    },
+    {
+      "title": "Estimating HDG corrosion rates using ISO 9223 categories C1 to CX",
+      "publisher": "Galvanizers Association",
+      "url": "https://www.hotdipgalvanizing.com/technical-resources/estimating-hdg-corrosion-rates-using-iso-9223-categories-c1-to-cx"
+    },
+    {
+      "title": "Electron",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Electron"
+    },
+    {
+      "title": "Obituary: Professor R. Balasubramaniam (1961–2009)",
+      "publisher": "IIT Kanpur, Materials and Metallurgical Engineering",
+      "url": "https://iitk.ac.in/mme/obituary"
+    }
+  ]
+}

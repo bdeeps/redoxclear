@@ -1,0 +1,175 @@
+{
+  "slug": "redoxclear",
+  "kind": "principle",
+  "box": 38,
+  "date": "2026-10-03",
+  "title": "Oxidation and reduction",
+  "question": "What is oxidation and reduction?",
+  "principle": {
+    "type": "concept",
+    "name": "Oxidation and reduction",
+    "formula": "OIL RIG: loss is oxidation, gain is reduction",
+    "formulaNote": "Oxidation Is Loss of electrons, Reduction Is Gain. Every electron one atom loses, another gains, so the two always happen together. Keep the two halves apart and the electrons go round a wire: cell voltage = E°(cathode) − E°(anode), 1.10 V for zinc and copper.",
+    "idea": "In a redox reaction electrons move from one substance to another. The one that loses electrons is oxidised and the one that gains them is reduced, and neither can happen without the other.",
+    "discovered": "1770s–1890s · Antoine Lavoisier tied burning and rusting to oxygen (Paris, 1770s); Volta's pile (1800), Faraday's laws of electrolysis (1833–34) and the discovery of the electron (1897) showed that it is electrons that move",
+    "art": "battery",
+    "appliesTo": [
+      "torchclear",
+      "upsclear",
+      "mobileclear",
+      "waterheaterclear",
+      "chimneyclear",
+      "respirationclear"
+    ],
+    "examples": [
+      {
+        "title": "A torch cell",
+        "text": "Inside a dry cell, zinc is oxidised and manganese dioxide is reduced. The electrons can only get from one to the other through the bulb, pushed by about 1.5 volts.",
+        "box": "torchclear"
+      },
+      {
+        "title": "An inverter battery",
+        "text": "In each lead–acid cell, lead loses electrons and lead dioxide gains them, at 2.05 V. Six cells in a row make a 12 V battery, and charging runs both reactions backwards.",
+        "box": "upsclear"
+      },
+      {
+        "title": "A phone battery",
+        "text": "Lithium ions cross from graphite to cobalt oxide while one electron per ion goes round the circuit, at about 3.7 V. Lithium sits at the very top of the reactivity series, which is why the voltage is so high.",
+        "box": "mobileclear"
+      },
+      {
+        "title": "The anode rod in a geyser",
+        "text": "A magnesium rod hangs in the steel tank. Magnesium is higher in the reactivity series than iron, so it is oxidised in the tank's place and has to be replaced every few years.",
+        "box": "waterheaterclear"
+      },
+      {
+        "title": "A gas hob's flame",
+        "text": "Burning is redox. When a molecule of propane burns, its carbon and hydrogen atoms give up 20 electrons to five molecules of oxygen, and the energy comes out as heat and light.",
+        "box": "chimneyclear"
+      },
+      {
+        "title": "Breathing",
+        "text": "Your cells oxidise glucose with the oxygen you breathe in: 24 electrons pass from each glucose molecule to six oxygen molecules, in many small steps instead of one flame.",
+        "box": "respirationclear"
+      },
+      {
+        "title": "A rusting gate by the sea",
+        "text": "Under a film of water, iron gives up electrons and oxygen takes them. Bare steel loses 25 to 50 thousandths of a millimetre a year in city air, and up to 200 in sea spray, because salt water carries the current."
+      },
+      {
+        "title": "A galvanised bucket",
+        "text": "Zinc is higher in the reactivity series than iron. Even where a scratch shows the steel, the zinc gives the electrons and the steel is spared. An 85 µm coat can last for decades."
+      },
+      {
+        "title": "The iron pillar of Delhi",
+        "text": "About 1,600 years old and barely rusted. Its phosphorus-rich iron grew a tight film of misawite and iron phosphate about a twentieth of a millimetre thick, which seals out water and oxygen (Balasubramaniam, Corrosion Science, 2000)."
+      },
+      {
+        "title": "Making aluminium",
+        "text": "No cheap chemical can pull oxygen off aluminium, so smelters force three electrons onto each aluminium ion with electricity: about 14 kWh for every kilogram of metal."
+      }
+    ]
+  },
+  "hook": "Dip zinc in blue copper sulphate and watch every electron change hands. Pick any two metals and read the voltage of the battery they make, find out why a drop of water rusts steel faster by the sea, how zinc takes the damage for iron, and why an iron pillar in Delhi has stood in the rain for 1,600 years.",
+  "thumbText": "OXIDATION AND REDUCTION",
+  "field": "chemistry",
+  "minutes": 12,
+  "tags": [
+    "redox",
+    "oxidation",
+    "reduction",
+    "OIL RIG",
+    "reactivity series",
+    "displacement reaction",
+    "electrode potential",
+    "Daniell cell",
+    "battery",
+    "lithium-ion",
+    "rusting",
+    "corrosion",
+    "galvanising",
+    "sacrificial anode",
+    "Delhi iron pillar",
+    "electrolysis",
+    "electroplating",
+    "Faraday's laws",
+    "oxidation number",
+    "chemistry",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Electrons change hands",
+      "text": "Put zinc in copper sulphate. Each zinc atom gives two electrons to a copper ion: Zn → Zn²⁺ + 2e⁻ is oxidation, Cu²⁺ + 2e⁻ → Cu is reduction. Oxidation Is Loss, Reduction Is Gain, and the electrons lost always equal the electrons gained."
+    },
+    {
+      "title": "The reactivity series",
+      "text": "Metals line up by how easily they give electrons away, and each rung has a measured voltage, E°. A metal pushes out any metal below it: iron pushes out copper (+0.79 V), copper pushes out silver, and copper in zinc sulphate does nothing (−1.10 V). Metals above hydrogen fizz in dilute acid."
+    },
+    {
+      "title": "A cell: electrons the long way round",
+      "text": "Keep the two halves apart, join them with a wire and a salt bridge, and the electrons must flow through the wire. Voltage = E°(cathode) − E°(anode): 1.10 V for zinc and copper, 2.05 V for a lead–acid cell, about 3.7 V for lithium-ion."
+    },
+    {
+      "title": "Rust, and stopping it",
+      "text": "Rusting is a short-circuited cell: iron gives electrons under a drop of water and oxygen takes them at its edge. Salt speeds it. Paint blocks it, zinc takes the damage in iron's place, chromium gives stainless steel a self-healing skin, and phosphorus gave Delhi's iron pillar a film 0.05 mm thick."
+    },
+    {
+      "title": "Backwards, beyond, and myths",
+      "text": "A power supply can force electrons uphill: 600 coulombs plates 0.2 g of copper, and smelting aluminium takes about 14 kWh a kilogram. Flames, breathing and bleach are redox too. And oxidation does not need oxygen: sodium burning in chlorine is one."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Oxidation",
+      "def": "Loss of electrons. The oxidation number of an atom goes up."
+    },
+    {
+      "term": "Reduction",
+      "def": "Gain of electrons. The oxidation number of an atom goes down."
+    },
+    {
+      "term": "Redox reaction",
+      "def": "A reaction in which electrons pass from one substance to another. Oxidation and reduction always happen together."
+    },
+    {
+      "term": "Reactivity series",
+      "def": "Metals in order of how easily they lose electrons. A metal displaces any metal below it from solution."
+    },
+    {
+      "term": "Standard electrode potential (E°)",
+      "def": "A measured voltage for each half-reaction, against hydrogen at 0 V. The gap between two of them is the voltage of the cell they make."
+    },
+    {
+      "term": "Anode and cathode",
+      "def": "Oxidation happens at the anode and reduction at the cathode. In a battery giving current, the anode is the negative terminal."
+    },
+    {
+      "term": "Corrosion",
+      "def": "The slow oxidation of a metal by air and water. Rusting is the corrosion of iron."
+    },
+    {
+      "term": "Electrolysis",
+      "def": "Using electric current to drive a redox reaction backwards, as in electroplating, smelting aluminium or charging a battery."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "redoxclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

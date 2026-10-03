@@ -1,0 +1,126 @@
+{
+  "slug": "redoxclear",
+  "box": 38,
+  "question": "What is oxidation and reduction?",
+  "url": "https://glassbox.how/e/redoxclear/",
+  "app": "https://glassbox.how/redoxclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "From a rustless iron pillar and a stack of zinc and copper discs to the battery in your pocket.\n\n400: An iron pillar that will not rust\n1777: Lavoisier weighs the air\n1800: Volta's pile: the first battery\n1807: Davy pulls potassium and sodium out of their salts\n1833: Faraday counts the charge\n1836: Daniell's steady cell\n\nThe full story, with 25 moments, sources and charts: glassbox.how/e/redoxclear/history (link in bio)\n\nThen play with how it works: glassbox.how/redoxclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #redox #oxidation #reduction #oilrig #reactivityseries #displacementreaction #history",
+      "youtube": {
+        "title": "The history of oxidation and reduction in 45 seconds #shorts",
+        "description": "From a rustless iron pillar and a stack of zinc and copper discs to the battery in your pocket.\n\n400 · An iron pillar that will not rust (Ironworkers of the Gupta period)\n1777 · Lavoisier weighs the air (Antoine Lavoisier, with Marie-Anne Paulze Lavoisier)\n1800 · Volta's pile: the first battery (Alessandro Volta)\n1807 · Davy pulls potassium and sodium out of their salts (Humphry Davy)\n1833 · Faraday counts the charge (Michael Faraday)\n1836 · Daniell's steady cell (John Frederic Daniell)\n\n▶ Full history: https://glassbox.how/e/redoxclear/history/\n▶ Play with it: https://glassbox.how/e/redoxclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "What is oxidation and reduction?\n\nDip zinc in blue copper sulphate and watch every electron change hands. Pick any two metals and read the voltage of the battery they make, find out why a drop of water rusts steel faster by the sea, how zinc takes the damage for iron, and why an iron pillar in Delhi has stood in the rain for 1,600 years.\n\n→ Dip zinc in blue copper sulphate. Each zinc atom hands two electrons to a copper ion: oxidation is loss, reduction is gain.\n→ Copper wire in silver nitrate: copper sits higher in the reactivity series, so silver crystals grow.\n→ Keep zinc and copper apart and the electrons must go round a wire. That is the Daniell cell: 1.10 volts.\n→ Lithium sits at the top of the ladder, so a lithium-ion cell gives 3.7 volts. Charging pushes the electrons back.\n→ Rust is a tiny battery: iron gives electrons in the middle of a drop, oxygen takes them at the edge.\n\nPlay with it yourself. It's free and open source: glassbox.how/redoxclear (link in bio)\n\nBox No. L38 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #redox #oxidation #reduction #oilrig #reactivityseries #displacementreaction #electrodepotential #daniellcell #battery",
+    "carousel": "Swipe through: What is oxidation and reduction?\n\nDip zinc in blue copper sulphate and watch every electron change hands. Pick any two metals and read the voltage of the battery they make, find out why a drop of water rusts steel faster by the sea, how zinc takes the damage for iron, and why an iron pillar in Delhi has stood in the rain for 1,600 years.\n\nSave this for later, then play with the interactive version at glassbox.how/redoxclear (link in bio).\n\nBox No. L38 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #redox #oxidation #reduction #oilrig #reactivityseries #displacementreaction",
+    "youtube": {
+      "title": "What is oxidation and reduction? #shorts",
+      "description": "Dip zinc in blue copper sulphate and watch every electron change hands. Pick any two metals and read the voltage of the battery they make, find out why a drop of water rusts steel faster by the sea, how zinc takes the damage for iron, and why an iron pillar in Delhi has stood in the rain for 1,600 years.\n\n▶ Play with it: https://glassbox.how/e/redoxclear/\n⌘ Source code (MIT): https://github.com/bdeeps/redoxclear\n\nBox No. L38 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "What is oxidation and reduction? (interactive explainer)",
+      "description": "Dip zinc in blue copper sulphate and watch every electron change hands. Pick any two metals and read the voltage of the battery they make, find out why a drop of water rusts steel faster by the sea, how zinc takes the damage for iron, and why an iron pillar in Delhi has stood in the rain for 1,600 years.\n\n▶ Play with the interactive version: https://glassbox.how/e/redoxclear/\n⌘ Source code (MIT): https://github.com/bdeeps/redoxclear\n\nIn this video:\n• Electrons change hands. Put zinc in copper sulphate.\n• The reactivity series. Metals line up by how easily they give electrons away, and each rung has a measured voltage, E°.\n• A cell: electrons the long way round. Keep the two halves apart, join them with a wire and a salt bridge, and the electrons must flow through the wire.\n• Rust, and stopping it. Rusting is a short-circuited cell: iron gives electrons under a drop of water and oxygen takes them at its edge.\n• Backwards, beyond, and myths. A power supply can force electrons uphill: 600 coulombs plates 0.2 g of copper, and smelting aluminium takes about 14 kWh a kilogram.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "What is oxidation and reduction?\n\nDip zinc in blue copper sulphate and watch every electron change hands.\n\nPlay with it: https://glassbox.how/e/redoxclear/",
+    "linkedin": "What is oxidation and reduction?\n\nDip zinc in blue copper sulphate and watch every electron change hands. Pick any two metals and read the voltage of the battery they make, find out why a drop of water rusts steel faster by the sea, how zinc takes the damage for iron, and why an iron pillar in Delhi has stood in the rain for 1,600 years.\n\n1. Electrons change hands\n2. The reactivity series\n3. A cell: electrons the long way round\n4. Rust, and stopping it\n5. Backwards, beyond, and myths\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. L38 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox.how/e/redoxclear/\nCode: https://github.com/bdeeps/redoxclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-10-04T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-10-03T15:21:32.308Z"
+}
