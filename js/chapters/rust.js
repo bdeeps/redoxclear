@@ -61,7 +61,7 @@ export default {
     <p>Look inside a single drop of water. In the middle, iron atoms give up electrons and dissolve: <b>Fe → Fe²⁺ + 2 e⁻</b>. That spot is an <b>anode</b>. The electrons run through the metal to the edge of the drop, where there is plenty of air. There, oxygen takes them: <b>O₂ + 2 H₂O + 4 e⁻ → 4 OH⁻</b>. That is the <b>cathode</b>. The steel is its own wire and the water is its own salt bridge. Rust is a cell that has been short-circuited.</p>
     <p><b>Why salt makes it worse.</b> Ions have to drift through the water to finish the circuit. Pure water has very few ions. Salty water has many, so the current flows easily. That is why a cycle or a car rusts faster in Mumbai, Chennai or Kochi than in dry Jaipur, and fastest of all where sea spray lands on it.</p>
     <p><b>Four ways to stop it.</b> <b>Paint</b> or oil keeps water and oxygen off the steel, until it is scratched. <b>Galvanising</b> coats the steel in <b>zinc</b>. Zinc is higher on the ladder than iron, so even at a scratch the zinc gives the electrons and the iron is left alone. The same trick protects ships, pipelines and geyser tanks: bolt on a block of zinc or magnesium, a <b>sacrificial anode</b>, and replace it when it is eaten away (see WaterHeaterClear). <b>Stainless steel</b> contains at least 10.5% <b>chromium</b>, which forms an invisible skin of chromium oxide that heals itself when scratched.</p>
-    <p><b>The iron pillar of Delhi.</b> Near the Qutb Minar stands an iron pillar more than 7 metres long, made about 1,600 years ago in the reign of Chandragupta II. It has barely rusted. The reason is chemistry, worked out by the metallurgist <b>R. Balasubramaniam</b> of IIT Kanpur (<i>Corrosion Science</i>, 2000). The old ironmakers used no limestone, so their iron kept a lot of <b>phosphorus</b>, about 0.25%. With Delhi's cycles of wet and dry weather, the phosphorus helped a thin, tight layer to form on the surface: first a compact iron oxyhydroxide called <b>misawite</b>, then crystals of <b>iron hydrogen phosphate</b>. That film is only about a twentieth of a millimetre thick, and it keeps water and oxygen away from the iron beneath.</p>
+    <p><b>The iron pillar of Delhi.</b> Near the Qutb Minar stands an iron pillar more than 7 metres long, made about 1,600 years ago. Its inscription names a king Chandra, generally identified as the Gupta emperor Chandragupta II. It has barely rusted. The reason is chemistry, worked out by the metallurgist <b>R. Balasubramaniam</b> of IIT Kanpur (<i>Corrosion Science</i>, 2000). The old ironmakers used no limestone, so their iron kept a lot of <b>phosphorus</b>, about 0.25%. Through centuries of wet and dry weather, the phosphorus helped a thin, tight layer to form on the surface: first a compact iron oxyhydroxide called <b>misawite</b>, then, right against the metal, crystals of <b>iron hydrogen phosphate</b>. That film is only about a twentieth of a millimetre thick, and it keeps water and oxygen away from the iron beneath.</p>
     <p class="tip"><b>Try it:</b> move the bare steel from dry indoors to sea spray and watch the electrons speed up. Then galvanise it, scratch it, and see which metal gives the electrons.</p>`,
   terms: [
     { t: 'Rust', d: 'Hydrated iron(III) oxide, FeO(OH) and Fe₂O₃·nH₂O: what iron becomes when water and oxygen oxidise it.' },
@@ -286,15 +286,15 @@ export default {
           return fit(`<div class="big">A film about 0.05 mm thick</div>
             <div class="row"><span>Made</span><b>c. 400 CE, forge-welded wrought iron</b></div>
             <div class="row"><span>Phosphorus in the iron</span><b>about ${PILLAR.P}%</b></div>
-            <div class="row"><span>Film next to the metal</span><b>misawite, δ-FeOOH</b></div>
-            <div class="row"><span>Then, over centuries</span><b>FePO₄·H₃PO₄·4H₂O crystals</b></div>
+            <div class="row"><span>First, a compact film</span><b>misawite, δ-FeOOH</b></div>
+            <div class="row"><span>Then, against the metal</span><b>FePO₄·H₃PO₄·4H₂O crystals</b></div>
             <div class="row x"><span>Size</span><b>${PILLAR.L} m long, over 6 tonnes</b></div>
             <div class="row x"><span>Average film growth</span><b>${PILLAR.film} µm ÷ ${num(PILLAR.age)} years = ${(PILLAR.film / PILLAR.age).toFixed(2)} µm a year</b></div>
             <small>From R. Balasubramaniam, Corrosion Science 42 (2000) 2103–2129. The layers are drawn far thicker than life, and the timing of the stages is schematic.</small>`);
         }
         const e = env(s.env), p = plan(s), done = p.on ? Math.max(0, Math.floor(phi + 0.1)) : 0;
         const ledger = `<div class="row"><span>Electrons lost = gained</span><b>${4 * done} = ${4 * done}</b></div>`;
-        const where = `<div class="row"><span>Air: ${e.name} (${e.cat})</span><b>steel ${rng2(e.steel, e)} µm a year</b></div>`;
+        const where = `<div class="row"><span>Air: ${e.name} (${e.cat})</span><b>bare steel: ${rng2(e.steel, e)} µm a year</b></div>`;
         if (s.prot === 'bare') return fit(`<div class="big">Rusting: ${rng2(e.steel, e)} µm a year</div>
           <div class="row"><span>Anode (middle of the drop)</span><b>Fe → Fe²⁺ + 2 e⁻</b></div>
           <div class="row"><span>Cathode (edge of the drop)</span><b>O₂ + 2 H₂O + 4 e⁻ → 4 OH⁻</b></div>

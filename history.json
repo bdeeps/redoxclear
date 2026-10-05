@@ -47,7 +47,7 @@
       "who": "Ironworkers of the Gupta period",
       "where": "Probably Udayagiri, central India; now Delhi",
       "country": "India",
-      "text": "Smiths forge-welded lumps of wrought iron into a pillar 7.2 metres long and weighing more than six tonnes, in the reign of Chandragupta II. It was moved to Delhi centuries later and has stood in the open ever since, with hardly any rust.",
+      "text": "Smiths forge-welded lumps of wrought iron into a pillar 7.2 metres long and weighing more than six tonnes, in about 400 CE. Its inscription names a king Chandra, generally identified as Chandragupta II. It is thought to have been moved to Delhi centuries later, and it has stood in the open ever since with hardly any rust.",
       "why": "It became the world's longest-running corrosion experiment, and its secret was only explained in 2000.",
       "sources": [
         23,
@@ -57,7 +57,7 @@
     },
     {
       "year": 850,
-      "date": "c. 9th century",
+      "date": "c. 9th–12th century",
       "era": "fire",
       "art": "flask",
       "key": false,
@@ -65,7 +65,7 @@
       "who": "Smelters of Zawar",
       "where": "Zawar, Rajasthan",
       "country": "India",
-      "text": "Zinc boils before its ore can be reduced in an open furnace, so it escapes as vapour. At Zawar, smelters heated the ore with organic matter in sealed clay retorts and caught the metal as it condensed. Europe did not match the process until William Champion's patent of 1738.",
+      "text": "Zinc boils before its ore can be reduced in an open furnace, so it escapes as vapour. At Zawar, perhaps as early as the 9th century and on a large scale by the 12th, smelters heated the ore with organic matter in sealed clay retorts and caught the metal as it condensed. Europe did not match the process until William Champion's patent of 1738.",
       "why": "Winning a metal from its ore is the original meaning of the word reduction.",
       "sources": [
         25,
@@ -134,7 +134,7 @@
       "who": "Alessandro Volta",
       "where": "Como and Pavia",
       "country": "Italy",
-      "text": "Volta stacked discs of zinc and copper, each pair separated by cardboard soaked in brine, and described the result in a letter to the Royal Society in London. Each pair gave about 0.76 volts, and the pile gave a steady current for the first time in history.",
+      "text": "Volta stacked discs of zinc and silver or copper, each pair separated by cardboard soaked in brine, and described the result in a letter to the Royal Society in London. Each zinc and copper pair gives about 0.76 volts, and the pile gave a steady current for the first time in history.",
       "why": "Every pair of discs is a small redox cell: zinc is oxidised, and the electrons flow round the circuit.",
       "sources": [
         4,
@@ -243,7 +243,7 @@
       "who": "John Frederic Daniell",
       "where": "King's College London",
       "country": "England",
-      "text": "Volta's pile faded within minutes as hydrogen bubbles coated its copper. Daniell kept zinc and copper in separate solutions with a porous pot between them, so that copper, not hydrogen, was deposited. His cell gave a steady 1.1 volts and went on to power the telegraph. In 1881 the volt was defined so that a Daniell cell gives about one.",
+      "text": "Volta's pile faded within an hour at best, as hydrogen bubbles coated its copper. Daniell kept zinc and copper in separate solutions with a porous barrier between them (an ox gullet at first, later an earthenware pot), so that copper, not hydrogen, was deposited. His cell gave a steady 1.1 volts and went on to power the telegraph. In 1881 the volt was defined so that a Daniell cell gives about one.",
       "why": "It is the textbook cell: two half-reactions kept apart so their electrons must travel through a wire.",
       "sources": [
         10,
@@ -294,9 +294,9 @@
       "key": false,
       "title": "Zinc, manganese and the dry cell",
       "who": "Georges Leclanché; Carl Gassner",
-      "where": "France; Mainz",
-      "country": "France and Germany",
-      "text": "Leclanché built a cell from a zinc rod, manganese dioxide and ammonium chloride solution. In 1886 Gassner turned the liquid into a paste and sealed it in a zinc can, making the first dry cell, at 1.5 volts. The alkaline version, developed by Lewis Urry, went on sale in 1959.",
+      "where": "Brussels; Mainz",
+      "country": "Belgium and Germany",
+      "text": "Leclanché, a French engineer working in Brussels, built a cell from a zinc rod, manganese dioxide and ammonium chloride solution. In 1886 Gassner turned the liquid into a paste and sealed it in a zinc can, making the first dry cell, at 1.5 volts. The alkaline version, developed by Lewis Urry, went on sale in 1959.",
       "why": "A battery that could not spill could go into a torch, a radio or a pocket.",
       "sources": [
         5,
@@ -314,7 +314,7 @@
       "who": "Charles Martin Hall and Paul Héroult",
       "where": "Oberlin, Ohio, and Paris",
       "country": "United States and France",
-      "text": "Two 22-year-olds, working independently, found that aluminium oxide dissolves in molten cryolite and can then be split by an electric current. Until then aluminium had been a precious metal. The process still makes nearly all the world's aluminium, at around 15 kWh for each kilogram.",
+      "text": "Two 22-year-olds, working independently, found that aluminium oxide dissolves in molten cryolite and can then be split by an electric current. Until then aluminium had been a costly metal, in the 1850s dearer than gold. The process still makes nearly all the world's aluminium, at around 15 kWh for each kilogram.",
       "why": "Aluminium sits so high in the reactivity series that only electricity can reduce it at a sensible cost.",
       "sources": [
         15,
@@ -586,12 +586,12 @@
       "unit": "volts",
       "log": false,
       "after": "cells",
-      "caption": "Each new pair of materials sat further apart on the reactivity series, so each cell gave more volts.",
+      "caption": "The further apart a cell's two materials sit on the reactivity series, the more volts it gives. These are the usual quoted values for each kind of cell.",
       "points": [
         {
           "year": 1800,
           "value": 0.76,
-          "label": "Volta's zinc and copper in brine: 0.76 V"
+          "label": "Volta's zinc and copper in brine: about 0.76 V"
         },
         {
           "year": 1836,
@@ -619,7 +619,7 @@
   "facts": [
     "The word reduction comes from smelting: an ore is 'reduced' to a smaller weight of metal as it loses its oxygen.",
     "In 1881 the volt was defined so that a Daniell cell of zinc and copper would give about one volt. Its true value is 1.10 V.",
-    "Before 1886 aluminium cost more than gold. Electrolysis made it cheap enough for foil and drink cans.",
+    "In the 1850s aluminium cost more than gold. After 1886, electrolysis made it cheap enough for foil and drink cans.",
     "The protective film on the Delhi iron pillar is about one-twentieth of a millimetre thick, after 1,600 years in the open.",
     "Davy's zinc and iron blocks protected the Navy's copper so well that barnacles moved in: the dissolving copper had been keeping them off."
   ],

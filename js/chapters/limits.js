@@ -54,14 +54,14 @@ const eCount = (r) => Math.abs(r.lo[2] - r.lo[1]) * r.lo[3];
 export default {
   id: 'limits',
   short: 'Backwards, and beyond',
-  title: 'Backwards, beyond metals, and three myths',
+  title: 'Backwards, beyond, and myths',
   subtitle: 'Electrolysis forces redox uphill. Flames, breath and bleach are redox too.',
   get view() { return autoView(); },
   learn: `<p><b>Driven backwards.</b> A cell lets electrons fall down the ladder and gives out energy. Push them back up with a power supply and you get <b>electrolysis</b>: the reaction runs in reverse and soaks up energy. That is how a key is <b>electroplated</b> with copper or chrome, how <b>aluminium</b> is won from its ore, and how water is split into <b>hydrogen</b> and oxygen. Charging a battery is the same idea.</p>
     <p>Michael Faraday found the rule in 1833: the amount of substance made depends only on the <b>charge</b> that passes. Each copper ion needs two electrons, each aluminium ion three. Count the electrons and you know the grams: <b>mass = charge × molar mass ÷ (electrons per ion × F)</b>.</p>
     <p><b>Beyond metals.</b> A flame, your breathing, a browning apple and bleach are all redox. Here electrons are not handed over completely. They are shared unequally in bonds. Chemists keep count with <b>oxidation numbers</b>: pretend every shared electron belongs to the atom that pulls harder. When methane burns, carbon goes from −4 to +4 and four oxygen atoms go from 0 to −2. Eight lost, eight gained. This is bookkeeping, not real charge: the carbon in CO₂ does not carry a charge of +4.</p>
     <p><b>Where the ladder misleads.</b> E° tells you <b>which way</b> a reaction goes, never <b>how fast</b>. Aluminium is far above iron, so it should corrode faster. It does not, because a skin of aluminium oxide a few millionths of a millimetre thick seals it within moments. And real electrolysis always costs more than the table says: water needs at least 1.23 V on paper, but working cells run at about 2 V.</p>
-    <p><b>Myth 1: oxidation needs oxygen.</b> The name comes from oxygen, but sodium burning in chlorine is an oxidation with no oxygen in sight. <b>Myth 2: a lemon battery runs on the lemon.</b> The energy comes from the zinc nail dissolving. The juice is only the electrolyte. <b>Myth 3: stainless steel cannot rust.</b> Salt can break its skin and pit it.</p>
+    <p><b>Myth 1: oxidation needs oxygen.</b> The name comes from oxygen, but sodium burning in chlorine is an oxidation with no oxygen in sight. <b>Myth 2: a lemon battery runs on the lemon.</b> The energy comes from the zinc nail dissolving. The juice is the electrolyte: its acid takes the electrons at the copper and its ions carry the current. <b>Myth 3: stainless steel cannot rust.</b> Salt can break its skin and pit it.</p>
     <p class="tip"><b>Try it:</b> in <b>Electrolysis</b>, double the current and watch the mass double. Then open <b>The ledger</b> and check that the electrons lost and gained match for a burning flame and for a slice of apple.</p>`,
   terms: [
     { t: 'Electrolysis', d: 'Using an electric current to force a redox reaction that would not happen by itself.' },

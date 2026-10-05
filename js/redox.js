@@ -267,8 +267,8 @@ export function fitNarrow(stage, minor = []) {
 // Boards sit beside the model on a wide screen, above it in the tall video, and under it on a phone
 // (where the readout fills the top of the stage). Each placement is [position, rotationY, scale].
 export const REEL_VIEW = { pos: [0, 5.3, 7.4], target: [0, 5.0, 0] };
-export const WIDE_BOARD = [[4.6, 2.8, 0], -0.25, 1.1];
-const PHONE = [[-0.24, -0.38, 0.3], 0, 0.8], REEL = [[0, 8.7, 0], 0, 2];
+export const WIDE_BOARD = [[4.42, 2.8, 0], -0.25, 1.0];
+const PHONE = [[-0.24, -0.52, 0.3], 0, 0.68], REEL = [[0, 8.7, 0], 0, 2];
 export function placeBoard(b, wide = WIDE_BOARD, reel = REEL, phone = PHONE) {
   const [p, r = 0, s = 1] = inReel() ? reel : isPhone() ? phone : wide;
   b.mesh.position.set(...p); b.mesh.rotation.set(0, r, 0); b.mesh.scale.setScalar(s);
